@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <img src="/Launch timer/images/logo-no-background.png" alt="Langalia-Solutions-Logo" class="logo">
+
+    <div class="container" >
+        <p><b>Enter your text or URL</b></p>
+        <div>
+        <input type="text" type="url" placeholder="Text or URL" id="qrText">
+        </div>
+
+        <div id="imgBox">
+            <img src="" alt="QR code" id="qrImg">
+        </div>
+
+        <div>
+        <button onclick="generateQR()" onkeyup="generateQR()" id="btn">Generate QR code</b></button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
